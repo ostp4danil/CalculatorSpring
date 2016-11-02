@@ -1,6 +1,6 @@
 package com.goit.calculator.operations;
 
-public class SummationLong implements Calculation<Long> {
+public class SummationLong implements Calculator<Long> {
 
     @Override
     public String calculate(String equation) {

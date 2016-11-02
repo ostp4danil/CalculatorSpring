@@ -1,7 +1,9 @@
 package com.goit.calculator.operations;
 
 
-public interface Calculation<T> {
+public interface Calculator<T> {
 
     String calculate(String equation);
+
+
 }

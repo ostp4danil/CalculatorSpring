@@ -1,9 +1,7 @@
 package com.goit.calculator.operations;
 
 
-import java.math.BigDecimal;
-
-public class SubtractionDouble implements Calculation<Double> {
+public class SubtractionDouble implements Calculator<Double> {
     @Override
     public String calculate(String equation) {
 

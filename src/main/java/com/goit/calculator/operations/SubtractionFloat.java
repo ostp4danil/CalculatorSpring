@@ -1,9 +1,7 @@
 package com.goit.calculator.operations;
 
 
-import java.math.BigDecimal;
-
-public class SubtractionFloat implements Calculation<Float> {
+public class SubtractionFloat implements Calculator<Float> {
     @Override
     public String calculate(String equation) {
         int operationSymbolIndex = equation.indexOf("-");

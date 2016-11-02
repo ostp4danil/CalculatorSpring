@@ -1,6 +1,6 @@
 package com.goit.calculator.operations;
 
-public class SummationFloat implements Calculation<Float> {
+public class SummationFloat implements Calculator<Float> {
 
     @Override
     public String calculate(String equation) {
