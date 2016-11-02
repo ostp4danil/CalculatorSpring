@@ -12,7 +12,7 @@
     <bean id="floatSub" class="com.goit.calculator.operations.SubtractionFloat"/>
     <bean id="longSub" class="com.goit.calculator.operations.SubtractionLong"/>
 
-    <bean id="calculator" class="com.goit.calculator.spring.Calculator">
+    <bean id="calculator" class="com.goit.calculator.spring.CalcExecutor">
         <constructor-arg ref="integerSum"></constructor-arg>
     </bean>
 

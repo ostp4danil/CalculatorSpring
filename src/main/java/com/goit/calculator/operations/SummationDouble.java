@@ -3,12 +3,11 @@ package com.goit.calculator.operations;
 public class SummationDouble implements Calculator<Double> {
 
     @Override
-    public String calculate(String equation) {
-        int operationSymbolIndex = equation.indexOf("+");
-        Double firstNumber = Double.parseDouble(equation.substring(0, operationSymbolIndex));
-        Double secondNumber = Double.parseDouble(equation.substring(operationSymbolIndex));
+    public String calculate(String action) {
+        int operationSymbolIndex = action.indexOf("+");
+        Double firstNumber = Double.parseDouble(action.substring(0, operationSymbolIndex));
+        Double secondNumber = Double.parseDouble(action.substring(operationSymbolIndex));
         Double answer = firstNumber + secondNumber;
-
         return firstNumber + "+" + secondNumber + "=" + answer;
     }
 }
